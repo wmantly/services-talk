@@ -29,6 +29,7 @@ API documentation is a public interface, just like any other object or class. In
 * **DRY** Don’t Repeat Yourself
 * **SOLID**
   * **S**  Single Responsibility Principle. An object (or service) should have one and only one responsibility.
+  * **O** Open/Closed Principle
   * **L** Liskov Substitution Principle.
   * **I** I nterface Segregation Principle. Interfaces (Services and their API's) should be specific rather than doing many and different things.
   * **D** Dependency Inversion Principle. 
