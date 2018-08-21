@@ -20,6 +20,8 @@ Does *serverless* change the calculus?
 
 ## Developing
 
+*SOA is not just an architecture of services seen from a technology perspective, but the policies, practices, and frameworks by which we ensure the right services are provided and consumed.* -- MSDN[6]
+
 Document exiting services
   Exiting API sush as Data Access and REST services need to documented, clearly stating intent, access controll and opporations. New services need to be clearly ducumented in the same way prior to being put into production. Self ducumenting API framworks such as Slate is a good way to start the documentaion.
   
@@ -56,15 +58,19 @@ A seriver is deployable unit
 
 ## Resources
 
-https://en.wikipedia.org/wiki/Microservices
+[1 Wiki: Microservicers](https://en.wikipedia.org/wiki/Microservices)
 
-https://en.wikipedia.org/wiki/Service-oriented_architecture
+[2 Wiki: Service-Oriented Architecture](https://en.wikipedia.org/wiki/Service-oriented_architecture)
 
-https://medium.com/@takezoe/how-to-develop-aws-based-application-in-the-local-environment-3e36eb705adf
+[3 Meduim: ASW Local tools](https://medium.com/@takezoe/how-to-develop-aws-based-application-in-the-local-environment-3e36eb705adf)
 
-http://cloudingmine.com/idempotence-what-is-it-and-why-should-i-care/
+[4 Cloudingmine: Idempotence Services](http://cloudingmine.com/idempotence-what-is-it-and-why-should-i-care/)
 
-https://medium.com/omarelgabrys-blog/object-oriented-analysis-and-design-design-principles-part-6-b78e2b9da023
+[5 Meduim: OOD Analysis](https://medium.com/omarelgabrys-blog/object-oriented-analysis-and-design-design-principles-part-6-b78e2b9da023)
+
+[6 MSDN: Understanding Service-Oriented Architecture](https://msdn.microsoft.com/en-us/library/aa480021.aspx)
+
+
 
 ## Books
 
