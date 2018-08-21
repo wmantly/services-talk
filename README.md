@@ -30,6 +30,14 @@ Document exiting services
   
 API documentation is a public interface, just like any other object or class. Infact many of the Object Oriented Desing princables apply to the application layer;
 
+> * All teams will henceforth expose their data and functionality through service interfaces.
+> * Teams must communicate with each other through these interfaces.
+> * There will be no other form of inter-process communication allowed: no direct linking, no direct reads of another team’s data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+> *It doesn’t matter what technology they use.
+> *All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+
+> -- Jeff Bezos issued mandate, sometime back around 2002[11]
+
 * **KISS** Keep It Simple, Stupid
 * **DRY** Don’t Repeat Yourself
 * **SOLID**
@@ -90,6 +98,8 @@ A seriver is deployable unit
 [9 AWS: Application Achitecture Center](https://aws.amazon.com/architecture/)
 
 [10 AWS: Microservices on AWS White Paper PDF](https://docs.aws.amazon.com/aws-technical-content/latest/microservices-on-aws/microservices-on-aws.pdf?icmpid=link_from_whitepapers_page)
+
+[11 API evanhelist: The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
 
 ## Books
 
