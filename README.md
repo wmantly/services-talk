@@ -13,6 +13,7 @@ I was asked to do a presentation on `Mirco Services`.
 ## Questions
 
 Why should an organization use microservices?
+
 Does *serverless* change the calculus?
 
 ## Vocabulary and Abriavation
