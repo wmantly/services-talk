@@ -23,6 +23,7 @@ Does *serverless* change the calculus?
 > *SOA is not just an architecture of services seen from a technology perspective, but the policies, practices, and frameworks by which we ensure the right services are provided and consumed.* -- MSDN[6]
 
 Document exiting services
+
   Exiting API sush as Data Access and REST services need to documented, clearly stating intent, access controll and opporations. New services need to be clearly ducumented in the same way prior to being put into production. Self ducumenting API framworks such as Slate is a good way to start the documentaion.
   
 API documentation is a public interface, just like any other object or class. Infact many of the Object Oriented Desing princables apply to the application layer;
@@ -38,9 +39,10 @@ API documentation is a public interface, just like any other object or class. In
 
 Versioned API and Interfaces. Start with Version 0 for beta and move to version 1 when its ready for production. Plane for breaking changes and change the version with many breaking changes. Try not to move to version to often. Planing is inportant.
 
-Containers
-emulated envoiments
-standered
+Containers/emulated envoiments
+
+standeres
+
 templates
 
 ## Services
