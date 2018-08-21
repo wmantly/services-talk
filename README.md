@@ -46,6 +46,12 @@ standeres
 templates
 
 ## Services
+> *A well formed service provides us with a unit of management that relates to business usage. Enforced separation of the service provision provides us with basis for understanding the life cycle costs of a service and how it is used in the business.* -- MSDN[6]
+
+> *SOA involves the deployment of services, which are units of logic that run in a network. A service has the following characteristics:
+> * It handles a business process such as calculating an insurance quote or distributing email; handles a technical task such as accessing a database; or provides business data and the technical details to construct a graphical interface.
+> *It can access another service. With the appropriate runtime technology, it can access a traditional program and respond to different kinds of requesters, such as web applications.
+> *It is relatively independent of other software. Changes to a requester require few or no changes to the service. Changes to the internal logic of a service require few or no changes to the requester. The relative independence of the service and other software is called loose coupling* -- IBM[7]
 
 ## Networking
 
@@ -72,7 +78,7 @@ A seriver is deployable unit
 
 [6 MSDN: Understanding Service-Oriented Architecture](https://msdn.microsoft.com/en-us/library/aa480021.aspx)
 
-
+[7 IBM: Service-Oriented Architecture](https://www.ibm.com/support/knowledgecenter/en/SSMQ79_9.5.1/com.ibm.egl.pg.doc/topics/pegl_serv_overview.html)
 
 ## Books
 
