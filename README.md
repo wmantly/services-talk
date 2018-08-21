@@ -34,6 +34,8 @@ API documentation is a public interface, just like any other object or class. In
   * **I** I nterface Segregation Principle. Interfaces (Services and their API's) should be specific rather than doing many and different things.
   * **D** Dependency Inversion Principle. 
 
+Versioned API and Interfaces. Start with Version 0 for beta and move to version 1 when its ready for production. Plane for breaking changes and change the version with many breaking changes. Try not to move to version to often. Planing is inportant.
+
 Containers
 emulated envoiments
 standered
@@ -63,3 +65,7 @@ https://medium.com/@takezoe/how-to-develop-aws-based-application-in-the-local-en
 http://cloudingmine.com/idempotence-what-is-it-and-why-should-i-care/
 
 https://medium.com/omarelgabrys-blog/object-oriented-analysis-and-design-design-principles-part-6-b78e2b9da023
+
+## Books
+
+[Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
