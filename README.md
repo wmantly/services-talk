@@ -17,6 +17,22 @@ Why should an organization use microservices?
 
 Does *serverless* change the calculus?
 
+
+## Developing
+
+Containers
+emulated envoiments
+standered
+templates
+
+## Services
+
+## Networking
+
+## Deploying
+
+A seriver is deployable unit 
+
 ## Vocabulary and Abriavation
 
 * **Severless**
@@ -27,3 +43,7 @@ Does *serverless* change the calculus?
 https://en.wikipedia.org/wiki/Microservices
 
 https://en.wikipedia.org/wiki/Service-oriented_architecture
+
+https://medium.com/@takezoe/how-to-develop-aws-based-application-in-the-local-environment-3e36eb705adf
+
+http://cloudingmine.com/idempotence-what-is-it-and-why-should-i-care/
