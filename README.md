@@ -30,14 +30,6 @@ Document exiting services
   
 API documentation is a public interface, just like any other object or class. Infact many of the Object Oriented Desing princables apply to the application layer;
 
-> * All teams will henceforth expose their data and functionality through service interfaces.
-> * Teams must communicate with each other through these interfaces.
-> * There will be no other form of inter-process communication allowed: no direct linking, no direct reads of another team’s data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
-> *It doesn’t matter what technology they use.
-> *All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
-
-> -- Jeff Bezos issued mandate, sometime back around 2002[11]
-
 * **KISS** Keep It Simple, Stupid
 * **DRY** Don’t Repeat Yourself
 * **SOLID**
@@ -62,8 +54,15 @@ templates
 > * It handles a business process such as calculating an insurance quote or distributing email; handles a technical task such as accessing a database; or provides business data and the technical details to construct a graphical interface.
 > * It can access another service. With the appropriate runtime technology, it can access a traditional program and respond to different kinds of requesters, such as web applications.
 > * It is relatively independent of other software. Changes to a requester require few or no changes to the service. Changes to the internal logic of a service require few or no changes to the requester. The relative independence of the service and other software is called loose coupling*
-
 > -- IBM[7]
+
+
+> * All teams will henceforth expose their data and functionality through service interfaces.
+> * Teams must communicate with each other through these interfaces.
+> * There will be no other form of inter-process communication allowed: no direct linking, no direct reads of another team’s data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+> * It doesn’t matter what technology they use.
+> * All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+> -- Jeff Bezos issued mandate, sometime back around 2002[11]
 
 ## Networking
 
