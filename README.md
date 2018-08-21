@@ -22,6 +22,8 @@ Does *serverless* change the calculus?
 
 > *SOA is not just an architecture of services seen from a technology perspective, but the policies, practices, and frameworks by which we ensure the right services are provided and consumed.* -- MSDN[6]
 
+> *...what is generally agreed amongst practitioners of SOA is that it is by no means a free lunch. Like many good practices in software engineering, it is an investment that will require extra planning, development and testing.* -- ANDREW CROSIO[8]
+
 Document exiting services
 
   Exiting API sush as Data Access and REST services need to documented, clearly stating intent, access controll and opporations. New services need to be clearly ducumented in the same way prior to being put into production. Self ducumenting API framworks such as Slate is a good way to start the documentaion.
@@ -65,6 +67,7 @@ A seriver is deployable unit
 
 * **Severless**
 * **SOA**
+* **Monolithic Application** self-contained, and independent from other computing applications. A single-tiered application in which the UI and data access code are combined into a single program from a single platform.
 
 ## Resources
 
@@ -81,6 +84,8 @@ A seriver is deployable unit
 [6 MSDN: Understanding Service-Oriented Architecture](https://msdn.microsoft.com/en-us/library/aa480021.aspx)
 
 [7 IBM: Service-Oriented Architecture](https://www.ibm.com/support/knowledgecenter/en/SSMQ79_9.5.1/com.ibm.egl.pg.doc/topics/pegl_serv_overview.html)
+
+[8 toptal: AWS Lambda for Ultimate Service Oriented Architecture](https://www.toptal.com/aws/service-oriented-architecture-aws-lambda)
 
 ## Books
 
