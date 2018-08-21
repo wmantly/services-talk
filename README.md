@@ -87,6 +87,10 @@ A seriver is deployable unit
 
 [8 toptal: AWS Lambda for Ultimate Service Oriented Architecture](https://www.toptal.com/aws/service-oriented-architecture-aws-lambda)
 
+[9 AWS: Application Achitecture Center](https://aws.amazon.com/architecture/)
+
+[10 AWS: Microservices on AWS White Paper PDF](https://docs.aws.amazon.com/aws-technical-content/latest/microservices-on-aws/microservices-on-aws.pdf?icmpid=link_from_whitepapers_page)
+
 ## Books
 
 [Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
