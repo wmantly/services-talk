@@ -1,4 +1,5 @@
 # Services
+
 I was asked to do a presentation on `Mirco Services`.
 
 ## Topics
@@ -20,3 +21,8 @@ Does *serverless* change the calculus?
 
 * **Severless**
 * **SOA**
+
+## Resources
+
+https://en.wikipedia.org/wiki/Microservices
+https://en.wikipedia.org/wiki/Service-oriented_architecture
