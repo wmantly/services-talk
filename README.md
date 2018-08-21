@@ -25,4 +25,5 @@ Does *serverless* change the calculus?
 ## Resources
 
 https://en.wikipedia.org/wiki/Microservices
+
 https://en.wikipedia.org/wiki/Service-oriented_architecture
