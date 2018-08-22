@@ -164,7 +164,9 @@ These are links I came across while writing this talk. They are in no particular
 
 [13 ThechTarget: Learn from past mistakes to avoid Amazon lock-in](https://searchaws.techtarget.com/opinion/Learn-from-past-mistakes-to-avoid-Amazon-lock-in)
 
-[14 Meduim: Multi-cloud, what are the options? Part 1- Low level abstraction libraries](https://medium.com/@anthonypjshaw/multi-cloud-what-are-the-options-part-1-low-level-abstraction-libraries-ce500f29120f) 
+[14 Meduim: Multi-cloud, what are the options? Part 1- Low level abstraction libraries](https://medium.com/@anthonypjshaw/multi-cloud-what-are-the-options-part-1-low-level-abstraction-libraries-ce500f29120f)
+
+[15 infoQ: Microservices From a Startup Perspective](https://www.infoq.com/articles/microservices-startup)
 
 ## Books
 
