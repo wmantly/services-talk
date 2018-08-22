@@ -170,6 +170,10 @@ These are links I came across while writing this talk. They are in no particular
 
 [16 Meduim: How we broke up our Monolithic Django Service into microservices](https://medium.com/greedygame-media/how-we-broke-up-our-monolithic-django-service-into-microservices-8ad6ff4db9d4)
 
+[17 Rapid7 Blog: Microservices – Please, don’t](https://blog.rapid7.com/2016/09/15/microservices-please-dont/)
+
+[18 MS docs: Communication in a microservice architecture](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/architect-microservice-container-applications/communication-in-microservice-architecture)
+
 ## Books
 
 [Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
