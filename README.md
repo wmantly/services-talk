@@ -15,39 +15,39 @@ I was asked to do a presentation on `Mirco Services`.
 
 ### Why should an organization use microservices?
 
-Using Service orinted archutexture and mircoservices allows orginaztion to responed to changes quickly and to break up concerns to the teams that they matter to.
+Using Service-oriented architecture and microservices allows organizations to respond to changes quickly and to break up concerns to the teams that they matter too.
 
 
 ### Does *serverless* change the calculus?
 
-Serverless does not nessecerly change the calcules, it allows for more fine graines services while balancing the `nano service` issue.
+Serverless does not necessarily change the calculus, it allows for more fine grained services while balancing the `nano service` issue.
 
 ## Developing
 
 > *SOA is not just an architecture of services seen from a technology perspective, but the policies, practices, and frameworks by which we ensure the right services are provided and consumed.* -- MSDN[6]
 
-> *...what is generally agreed amongst practitioners of SOA is that it is by no means a free lunch. Like many good practices in software engineering, it is an investment that will require extra planning, development and testing.* -- ANDREW CROSIO[8]
+> *...what is generally agreed amongst practitioners of SOA is that it is by no means a free lunch. Like many good practices in software engineering, it is an investment that will require extra planning, development, and testing.* -- ANDREW CROSIO[8]
 
 Document exiting services
 
-Existing API sush as Data Access and REST services need to documented, clearly stating intent, access controll and opporations. New services need to be clearly ducumented in the same way prior to being put into production. Self ducumenting API framworks such as Swager is a good way to keep the documentaion a living document.
+Existing API such as Data Access and REST services need to documented, clearly stating intent, access , and operations. New services need to be clearly documented in the same way prior to being put into production. Self documenting API frameworks such as Swager is a good way to keep the documentation a living document.
   
-API routes is the public interface, just like any other object or class. In fact many of the Object Oriented Desing princables apply to the application layer;
+API routes are the public interface, just like any other object or class. In fact, many of the Object Oriented Desing principles apply to the application layer;
 
 * **KISS** Keep It Simple, Stupid
-* **DRY** Don’t Repeat Yourself. Prior to developemt of any service, check to make sure their are no current tools or services that do some or all of your current project goals. This can be interal or external.
+* **DRY** Don’t Repeat Yourself. Prior to the development of any service, check to make sure there are no current tools or services that do some or all of your current project goals. This can be internal or external.
 * **SOLID**
-  * **S**  Single Responsibility Principle. An object (or service) should have one and only one responsibility. A good way of testing this is to ask "what does this do?", if you need to use the workd `and`, it may do to much and should be two things.
-  * **O** Open/Closed Principle. Objects or entities should be open for extension, but closed for modification. Use a service to agratage functionaily from and build upon it instead of chaging existing services. This will prevent breaking changes.
+  * **S**  Single Responsibility Principle. An object (or service) should have one and only one responsibility. A good way of testing this is to ask "what does this do?", if you need to use the word `and`, it may do too much and should be two things.
+  * **O** Open/Closed Principle. Objects or entities should be open for extension, but closed for modification. Use a service to aggregate functionality from and build upon it instead of changing existing services. This will prevent breaking changes.
   * **L** Liskov Substitution Principle.
-  * **I** I nterface Segregation Principle. Interfaces (Services and their API's) should be specific rather than doing many and different things.
-  * **D** Dependency Inversion Principle. Do not depend directly on data sources and 3rd parties, always perfer to use a wrapper to insulated from outside changes.
+  * **I** Interface Segregation Principle. Interfaces (Services and their API's) should be specific rather than doing many and different things.
+  * **D** Dependency Inversion Principle. Do not depend directly on data sources and 3rd parties, always prefer to use a wrapper to insulated from outside changes.
 
-Versioned API and Interfaces. Start with Version 0 for beta and move to version 1 when its ready for production. Plane for breaking changes and change the version with many breaking changes. Try not to move to version to often. Planing is inportant.
+Versioned API and Interfaces. Start with Version 0 for beta and move to version 1 when its ready for production. Plane for breaking changes and change the version with any breaking changes. Try not to move to version too often. Planning is important.
 
-Containers/emulated envoiments
+Containers/emulated environments
 
-standeres
+standards
 
 templates
 
@@ -70,15 +70,16 @@ templates
 
 ## Deploying
 
-A seriver is deployable unit 
+A service is a deployable unit 
 
 ## Vocabulary and Abriavation
 
-* **Severless**
+* **Serverless**
 * **SOA**
 * **Monolithic Application** self-contained, and independent from other computing applications. A single-tiered application in which the UI and data access code are combined into a single program from a single platform.
 
 ## Resources
+These are links I came across while writing this talk. They are in no particular order.
 
 [1 Wiki: Microservicers](https://en.wikipedia.org/wiki/Microservices)
 
@@ -96,13 +97,13 @@ A seriver is deployable unit
 
 [8 toptal: AWS Lambda for Ultimate Service Oriented Architecture](https://www.toptal.com/aws/service-oriented-architecture-aws-lambda)
 
-[9 AWS: Application Achitecture Center](https://aws.amazon.com/architecture/)
+[9 AWS: Application Architecture Center](https://aws.amazon.com/architecture/)
 
 [10 AWS: Microservices on AWS White Paper PDF](https://docs.aws.amazon.com/aws-technical-content/latest/microservices-on-aws/microservices-on-aws.pdf?icmpid=link_from_whitepapers_page)
 
-[11 API evanhelist: The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
+[11 API evangelist: The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
 
-[12 scotch.io: S.O.L.I.D: The First 5 Principles of Object Oriented Design](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+[12 scotch.io: S.O.L.I.D: The First 5 Principles of Object-Oriented Design](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 
 ## Books
 
