@@ -81,6 +81,9 @@ Serverless does not necessarily change the calculus, it allows for more fine-gra
 
 ## Developing
 
+> "The most innovative companies and highest-performing organizations are always striving to be better and never consider themselves “mature” or “done” with their improvement or transformation journey.
+> -- Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations
+
 > *SOA is not just an architecture of services seen from a technology perspective, but the policies, practices, and frameworks by which we ensure the right services are provided and consumed.* -- MSDN[6]
 
 > *...what is generally agreed amongst practitioners of SOA is that it is by no means a free lunch. Like many good practices in software engineering, it is an investment that will require extra planning, development, and testing.* -- ANDREW CROSIO[8]
