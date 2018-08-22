@@ -13,10 +13,14 @@ I was asked to do a presentation on `Mirco Services`.
 
 ## Questions
 
-Why should an organization use microservices?
+### Why should an organization use microservices?
 
-Does *serverless* change the calculus?
+Using Service orinted archutexture and mircoservices allows orginaztion to responed to changes quickly and to break up concerns to the teams that they matter to.
 
+
+### Does *serverless* change the calculus?
+
+Serverless does not nessecerly change the calcules, it allows for more fine graines services while balancing the `nano service` issue.
 
 ## Developing
 
@@ -26,18 +30,18 @@ Does *serverless* change the calculus?
 
 Document exiting services
 
-  Exiting API sush as Data Access and REST services need to documented, clearly stating intent, access controll and opporations. New services need to be clearly ducumented in the same way prior to being put into production. Self ducumenting API framworks such as Slate is a good way to start the documentaion.
+Existing API sush as Data Access and REST services need to documented, clearly stating intent, access controll and opporations. New services need to be clearly ducumented in the same way prior to being put into production. Self ducumenting API framworks such as Swager is a good way to keep the documentaion a living document.
   
-API documentation is a public interface, just like any other object or class. Infact many of the Object Oriented Desing princables apply to the application layer;
+API routes is the public interface, just like any other object or class. In fact many of the Object Oriented Desing princables apply to the application layer;
 
 * **KISS** Keep It Simple, Stupid
-* **DRY** Don’t Repeat Yourself
+* **DRY** Don’t Repeat Yourself. Prior to developemt of any service, check to make sure their are no current tools or services that do some or all of your current project goals. This can be interal or external.
 * **SOLID**
-  * **S**  Single Responsibility Principle. An object (or service) should have one and only one responsibility.
-  * **O** Open/Closed Principle
+  * **S**  Single Responsibility Principle. An object (or service) should have one and only one responsibility. A good way of testing this is to ask "what does this do?", if you need to use the workd `and`, it may do to much and should be two things.
+  * **O** Open/Closed Principle. Objects or entities should be open for extension, but closed for modification. Use a service to agratage functionaily from and build upon it instead of chaging existing services. This will prevent breaking changes.
   * **L** Liskov Substitution Principle.
   * **I** I nterface Segregation Principle. Interfaces (Services and their API's) should be specific rather than doing many and different things.
-  * **D** Dependency Inversion Principle. 
+  * **D** Dependency Inversion Principle. Do not depend directly on data sources and 3rd parties, always perfer to use a wrapper to insulated from outside changes.
 
 Versioned API and Interfaces. Start with Version 0 for beta and move to version 1 when its ready for production. Plane for breaking changes and change the version with many breaking changes. Try not to move to version to often. Planing is inportant.
 
@@ -63,8 +67,6 @@ templates
 > * It doesn’t matter what technology they use.
 > * All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
 > -- Jeff Bezos issued mandate, sometime back around 2002[11]
-
-## Networking
 
 ## Deploying
 
@@ -99,6 +101,8 @@ A seriver is deployable unit
 [10 AWS: Microservices on AWS White Paper PDF](https://docs.aws.amazon.com/aws-technical-content/latest/microservices-on-aws/microservices-on-aws.pdf?icmpid=link_from_whitepapers_page)
 
 [11 API evanhelist: The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
+
+[12 scotch.io: S.O.L.I.D: The First 5 Principles of Object Oriented Design](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 
 ## Books
 
