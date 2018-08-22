@@ -174,6 +174,8 @@ These are links I came across while writing this talk. They are in no particular
 
 [18 MS docs: Communication in a microservice architecture](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/architect-microservice-container-applications/communication-in-microservice-architecture)
 
+[19 Chick-fil-A Tech Blog: Edge Computing at Chick-fil-A](https://medium.com/@cfatechblog/edge-computing-at-chick-fil-a-7d67242675e2)
+
 ## Books
 
 [Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
