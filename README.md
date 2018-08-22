@@ -176,6 +176,9 @@ These are links I came across while writing this talk. They are in no particular
 
 [19 Chick-fil-A Tech Blog: Edge Computing at Chick-fil-A](https://medium.com/@cfatechblog/edge-computing-at-chick-fil-a-7d67242675e2)
 
+
+
 ## Books
+[Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations PDF](https://devops-research.com/assets/accelerate-book-excerpt.pdf)
 
 [Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
