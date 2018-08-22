@@ -168,6 +168,8 @@ These are links I came across while writing this talk. They are in no particular
 
 [15 infoQ: Microservices From a Startup Perspective](https://www.infoq.com/articles/microservices-startup)
 
+[16 Meduim: How we broke up our Monolithic Django Service into microservices](https://medium.com/greedygame-media/how-we-broke-up-our-monolithic-django-service-into-microservices-8ad6ff4db9d4)
+
 ## Books
 
 [Practical Object-Oriented Design in Ruby](https://www.poodr.com/)
