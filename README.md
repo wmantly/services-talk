@@ -1,23 +1,63 @@
 # Services
 
-Mircoservices Arhitecture talk for Roivat Scines. Augest 2018 
+Microservices Architecture talk for Roivat Sciences. August 2018 
 
 ## About Me
 William Mantly Jr.
 
-(https://avatars3.githubusercontent.com/u/6242401?s=460&v=4)
 [GitHub](https://github.com/wmantly)
 
 [Linkedin](https://www.linkedin.com/in/wmantly/)
 
 
-## Monolith vs MircoServices
+## Monolith vs microservices
 
-## What is a monolithic application?
+### What is a monolithic application?
 
 A monolithic application is self-contained, and independent from other computing applications. The design philosophy is that the application is responsible not just for a particular task, but can perform every step needed to complete a particular function, without modularity.
 
+![](images/monolith.png)
 
+### What is a microservices
+
+Microservices is an approach to application architecture and development wherein an application is built in smaller, separate pieces. Each service is developed, tested and deployed independently.
+
+### Pros And Cons
+
+## The bigger picture
+
+The argument for Mirco Services or monoliths is less important in today's world of Service-oriented architectures backed by powerful Infrastructure as a service providers. Services can be easily scaled and deployed from large monoliths to single functions all with code. While we have many exciting options, we have not lost any complexity and all this comes at a price.
+
+## Infrastructure strategies
+
+Infrastructure may come out of a pipe these days, but it is not client ready from the tap. We still need infrastructure and operations teams to manage and get the most out of our dollars. Let us look at two infrastructure management strategies i like to call passive and active
+
+### Passive
+
+A Passive strategy moves most of the DevOps works to the services teams. The organization passively provides services. All teams would have to be fluent in could operations of your current provider. This will encourage a high amount of vendor lock-in making it harder to leave the current provider. A lean infrastructure team would manage access to the cloud provider. this strategy works best for highly planed apps
+
+Pros
+ * Smaller infrastructure team
+ * Maybe cheaper
+Cons
+ * All developers are cloud fluent
+ * Team manage cloud directly
+ * Very high vendor lockin, Harder to move away from the cloud
+ * Prone to mistakes from inexperienced users
+
+## Active
+
+An active strategy has the infrastructure team actively trying to abstract the cloud provider away from developers. An internal access API would be managed by an infrastructure team. A limited subset of the cloud providers services would also be abstracted and shared. The preferable way for development teams to deploy and manager projects would via repo actions triggering CD/CI functionality and the internal API. This approach would also favor more standard development tools and skills and minimize vendor lock-in.
+
+Pros
+ * Developers do not need to know about cloud providers
+ * Much less access to the cloud provider
+ * Minal vendor lockin
+ * Higher quality control
+Cons
+ * Larger infrastructure team, more responsibility
+ * May cost more
+ 
 
 ## Topics
 
@@ -37,7 +77,7 @@ Using Service-oriented architecture and microservices allows organizations to re
 
 ### Does *serverless* change the calculus?
 
-Serverless does not necessarily change the calculus, it allows for more fine grained services while balancing the `nano service` issue.
+Serverless does not necessarily change the calculus, it allows for more fine-grained services while balancing the `nano service` issue.
 
 ## Developing
 
@@ -47,7 +87,7 @@ Serverless does not necessarily change the calculus, it allows for more fine gra
 
 Document exiting services
 
-Existing API such as Data Access and REST services need to documented, clearly stating intent, access , and operations. New services need to be clearly documented in the same way prior to being put into production. Self documenting API frameworks such as Swager is a good way to keep the documentation a living document.
+Existing API such as Data Access and REST services need to documented, clearly stating intent, access, and operations. New services need to be clearly documented in the same way prior to being put into production. Self documenting API frameworks such as Swager is a good way to keep the documentation a living document.
   
 API routes are the public interface, just like any other object or class. In fact, many of the Object Oriented Desing principles apply to the application layer;
 
@@ -123,6 +163,8 @@ These are links I came across while writing this talk. They are in no particular
 [12 scotch.io: S.O.L.I.D: The First 5 Principles of Object-Oriented Design](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 
 [13 ThechTarget: Learn from past mistakes to avoid Amazon lock-in](https://searchaws.techtarget.com/opinion/Learn-from-past-mistakes-to-avoid-Amazon-lock-in)
+
+[14 Meduim: Multi-cloud, what are the options? Part 1- Low level abstraction libraries](https://medium.com/@anthonypjshaw/multi-cloud-what-are-the-options-part-1-low-level-abstraction-libraries-ce500f29120f) 
 
 ## Books
 
