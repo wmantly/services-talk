@@ -1,6 +1,23 @@
 # Services
 
-I was asked to do a presentation on `Mirco Services`.
+Mircoservices Arhitecture talk for Roivat Scines. Augest 2018 
+
+## About Me
+William Mantly Jr.
+
+(https://avatars3.githubusercontent.com/u/6242401?s=460&v=4)
+[GitHub](https://github.com/wmantly)
+
+[Linkedin](https://www.linkedin.com/in/wmantly/)
+
+
+## Monolith vs MircoServices
+
+## What is a monolithic application?
+
+A monolithic application is self-contained, and independent from other computing applications. The design philosophy is that the application is responsible not just for a particular task, but can perform every step needed to complete a particular function, without modularity.
+
+
 
 ## Topics
 
@@ -104,6 +121,8 @@ These are links I came across while writing this talk. They are in no particular
 [11 API evangelist: The Secret to Amazons Success Internal APIs](https://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/)
 
 [12 scotch.io: S.O.L.I.D: The First 5 Principles of Object-Oriented Design](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
+
+[13 ThechTarget: Learn from past mistakes to avoid Amazon lock-in](https://searchaws.techtarget.com/opinion/Learn-from-past-mistakes-to-avoid-Amazon-lock-in)
 
 ## Books
 
