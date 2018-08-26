@@ -181,6 +181,8 @@ These are links I came across while writing this talk. They are in no particular
 
 [20 Gergely Nemeth: Using Kubernetes for Local Development](https://nemethgergely.com/using-kubernetes-for-local-development/)
 
+[21 Kubernetes Blog: Developing on Kubernetes](https://kubernetes.io/blog/2018/05/01/developing-on-kubernetes/)
+
 ## Books
 [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations PDF](https://devops-research.com/assets/accelerate-book-excerpt.pdf)
 
